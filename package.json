@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "repository": "git@github.com:LambdaNetwork/ico.git",
   "author": "LambdaNetwork",
+  "license": "MIT",
+  "scripts": {
+  	"console": "truffle console",
+  	"migrate": "truffle migrate",
+  	"ganache": "ganache-cli"
+  },
   "devDependencies": {
     "ganache-cli": "^6.1.0",
     "truffle": "^4.1.7",
