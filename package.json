@@ -7,7 +7,7 @@
   "scripts": {
   	"console": "truffle console",
   	"migrate": "truffle migrate",
-  	"ganache": "ganache-cli"
+  	"start": "ganache-cli"
   },
   "devDependencies": {
     "ganache-cli": "^6.1.0",
