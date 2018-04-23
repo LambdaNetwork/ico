@@ -1,0 +1,11 @@
+{
+  "name": "ico",
+  "version": "1.0.0",
+  "repository": "git@github.com:LambdaNetwork/ico.git",
+  "author": "LambdaNetwork",
+  "devDependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "^4.1.7",
+    "zeppelin-solidity": "1.8.0"
+  }
+}
