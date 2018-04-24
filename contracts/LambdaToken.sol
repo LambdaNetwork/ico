@@ -6,8 +6,8 @@ contract LambdaToken is StandardToken {
   string public name = "Lambda Token";
   string public symbol = "LAMB";
   uint8 public decimals = 18;
-  
-  uint constant _SUPPLY = 1000;
+
+  uint constant _SUPPLY = 100;
 
   constructor() public {
     totalSupply_ = _SUPPLY * (10 ** uint256(decimals));
