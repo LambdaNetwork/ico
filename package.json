@@ -8,6 +8,8 @@
   	"console": "truffle console",
   	"migrate": "truffle migrate",
   	"start": "ganache-cli",
+    "start:gui": "/Applications/Ganache.app/Contents/MacOS/ganache & disown",
+    "start:wallet": "\/Applications\/Ethereum\\ Wallet.app\/Contents\/MacOS\/Ethereum\\ Wallet --rpc \"http:\/\/127.0.0.1:8545\" & disown",
   	"test": "truffle test"
   },
   "devDependencies": {
