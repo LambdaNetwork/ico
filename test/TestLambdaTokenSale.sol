@@ -1,12 +1,12 @@
 pragma solidity ^0.4.23;
 
 import "truffle/Assert.sol";
-import "../../contracts/LambdaToken.sol";
-import "../../contracts/LambdaTokenSale.sol";
+import "../contracts/LambdaToken.sol";
+import "../contracts/LambdaTokenSale.sol";
 
 contract TestLambdaTokenSale {
-  function testConstructor() {
-    LambdaToken token = new LambdaToken();
+  function testConstructor() public {
+    LambdaToken token = new LambdaToken(100);
     LambdaTokenSale sale = new LambdaTokenSale(1, address(1), token);
 
     Assert.equal(sale.rate(), 1, "rate should be set correctly");
